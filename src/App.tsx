@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { VideoGallery } from "./components/VideoGallery";
+import { PhotoGallery } from "./components/VideoGallery";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
@@ -81,7 +81,7 @@ return (
       <main className="pt-20">
         <Hero />
         <PhotoGallery />
-        <VideoGallery />
+        <PhotoGallery />
         <About />
         <Contact />
       </main>
