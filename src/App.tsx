@@ -1,8 +1,9 @@
 import { useState } from "react";
-import VideoGallery from "./components/VideoGallery";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import { VideoGallery } from "./components/VideoGallery";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+
 import { X, Menu } from "lucide-react";
 
 
