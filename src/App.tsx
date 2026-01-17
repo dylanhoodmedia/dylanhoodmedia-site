@@ -1,10 +1,11 @@
-import { useState } from 'react';
-import { Menu, X, Play } from 'lucide-react';
-import { PhotoGallery } from './components/PhotoGallery';
-import { VideoGallery } from './components/VideoGallery';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
+import { useState } from "react";
+import VideoGallery from "./components/VideoGallery";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import { X, Menu } from "lucide-react";
+
+
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,18 +16,19 @@ export default function App() {
     setMobileMenuOpen(false);
   };
 
-  return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
-        <nav className="max-w-[1440px] mx-auto px-6 md:px-12 py-6 flex items-center justify-between">
-          <div className="flex items-center">
-            <img 
-              src="https://raw.githubusercontent.com/dylanhoodmedia/dylanhoodmedia-site/main/assets/logos/Main%20Logo.svg" 
-              alt="Dylan Hood Media" 
-              className="h-5" 
-            />
-          </div>
+return (
+  <div className="min-h-screen bg-white">
+    {/* Header */}
+    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+      <nav className="max-w-[1440px] mx-auto px-6 md:px-12 py-6 flex items-center justify-between">
+        <div className="flex items-center">
+          <img
+            src="/assets/logos/main-logo.svg"
+            alt="Dylan Hood Media"
+            className="h-5"
+          />
+        </div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
