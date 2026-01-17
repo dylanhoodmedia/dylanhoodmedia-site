@@ -68,7 +68,7 @@ export function Contact() {
                   <span className="text-gray-900 font-medium">$200</span>
                 </div>
               </div>
-              <div className="text-sm text-gray-600 space-y-2">
+              <div className="text-sm text-gray-600 space-y-4">
                 <p>*Homes over 3,000 sq ft may require a custom rate</p>
                 <p>For commercial and event projects, reach out and I'll tailor a custom quote.</p>
               </div>
